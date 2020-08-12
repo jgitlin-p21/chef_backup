@@ -19,4 +19,6 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "mixlib-shellout", ">= 2.0", "< 4.0"
   spec.add_dependency "highline", "~> 1.6", ">= 1.6.9"
+  spec.add_dependency "chef", "~> 16.4.18"
+  #spec.add_dependency "chef-config", "~> 16.4.18"
 end
